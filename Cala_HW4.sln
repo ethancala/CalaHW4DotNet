@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cala_HW4", "Cala_HW4\Cala_HW4.csproj", "{A9A0921E-BC3F-4DF9-B933-666945085669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A0921E-BC3F-4DF9-B933-666945085669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A0921E-BC3F-4DF9-B933-666945085669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A0921E-BC3F-4DF9-B933-666945085669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A0921E-BC3F-4DF9-B933-666945085669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
