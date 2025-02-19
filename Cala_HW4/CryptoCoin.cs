@@ -3,10 +3,11 @@
 class CryptoCoin
 {
     
-    // 3 properties of a cryptoCurrency
+    // 4 properties of a cryptoCurrency
     public string Name { get; set; }
     public string Symbol{ get; set; }
     private double price;
+    public double Supply { get; set; }
     
     
     //getter and setter for price since its privately declared
@@ -20,11 +21,12 @@ class CryptoCoin
     public CryptoCoin(){}
     
     //custom constructor with 3 properties
-    public CryptoCoin(string name, string symbol, double price)
+    public CryptoCoin(string name, string symbol, double price, double supply)
     {
         Name = name;
         Symbol = symbol;
         Price = price;
+        Supply = supply;
     }
     
     //method to calculate wallet worth
@@ -36,6 +38,7 @@ class CryptoCoin
     //toStringMethod
     public override string ToString()
     {
-        return $"{Name,-7} | {Symbol,-3} | {Price,5:F2} USD";
+        
+        return $"{Name,-5} | {Symbol,-3} | {Price,5:F2} USD | {Supply, 8:F2} coins | {CalculateSupply(Supply),13:F2} USD value " ;
     }
 }
